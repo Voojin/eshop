@@ -1,6 +1,7 @@
 $main-font: 'Work Sans', sans-serif
 $main-nav-color:  #008080 
 $productitem-bg: #85e4af
+$graybg: #6b676793
   
 html
   scroll-behavior: smooth
@@ -186,7 +187,7 @@ a
 
 .aside_menu
    padding: 10px 0px 0px 35px 
-   height: 1400px
+   height: 1000px
    border-right: 5px solid #e2e2e2
    background-color: $main-nav-color
    font-family: 'Work Sans', sans-serif
@@ -755,20 +756,22 @@ span.psw
     display: grid
     grid-template-columns: 210px 1fr 
     background-color: #6b676793
-    height: 1410px
+    height: 1010px
 .blog-container h4:first-child 
     margin-top: 0
 
 .testcont
   width: 100%
   display: grid
-  grid-template-rows: 1fr 1fr 1fr 1fr
+  
   grid-template-columns: 1fr 1fr 1fr
 
 .testcontspan
   display: grid
-  grid-column: 1/4 
   grid-template-columns: 1fr 1fr
+  background: $graybg
+  border-bottom: 5px solid #e2e2e2
+  
   
 
  
@@ -789,8 +792,8 @@ span.psw
   padding-top: 35px 
   padding-left: 25px
   position: relative
-  grid-row: 2/ span 4
-
+  background: 
+  
 .small-post-post 
     margin-bottom: 32px
 
@@ -831,7 +834,6 @@ span.psw
 .big-blog-item-one 
     background-image: url(../img/bigimgblog.png)
     background-repeat: no-repeat
-
     font-style: normal
     font-weight: 600
     font-size: 22px
@@ -839,6 +841,9 @@ span.psw
     color: #FFFFFF
     padding: 24px
     margin: 35px 25px
+
+
+
 
 .tag
   margin-top: 10px
